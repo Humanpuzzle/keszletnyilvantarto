@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-size: 14px;
+}
+
+#productlist th, #productlist td {
+    padding: 8px;
+}
+
+#productlist tbody tr {
+    border-bottom: 1px solid lightgray;
+}
+#productlist tbody td {
+    vertical-align: middle;
+}
